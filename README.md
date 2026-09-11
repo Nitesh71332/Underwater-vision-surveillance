@@ -12,7 +12,7 @@ All three datasets are evaluated separately.
 
 ## Project Pipeline
 
-Underwater Images → Image Enhancement → YOLO Object Detection → Evaluation
+Underwater Images → Data Inspection → Data Preparation → Image Enhancement → YOLO Object Detection → Evaluation
 
 ## Candidate Methods
 
@@ -27,11 +27,27 @@ Underwater Images → Image Enhancement → YOLO Object Detection → Evaluation
 - mAP@0.5
 - mAP@0.5:0.95
 - PSNR / SSIM / UIQM where applicable
+- Inference / processing time
 
 ## Progress
 
 - Day 1 — Problem Understanding
 - Day 2 — Literature Review
 - Day 3 — Research Framing & Mentor Review
+- Day 4 — Dataset Schema & Risk Checklist
+- Day 5 — Experiment Plan & Pipeline
+- Day 6 — Methodology V1
+- Day 7 — Initial Dataset Inspection & Preliminary Dataset Report
+- Day 8 — Dataset & Annotation Quality Report
+- Day 9 — Data Preparation Progress Pack
+- Day 10 — Visual Exploratory Data Analysis (EDA)
+
+## Current Status
+
+- Dataset inspection completed for all three datasets
+- Dataset and annotation quality audits completed
+- Visual EDA completed
+- Data preparation and preprocessing implementation started
+- Dataset V1 preparation is in progress
 
 **Author:** C. Nitesh Kumar
