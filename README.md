@@ -12,7 +12,7 @@ All three datasets are evaluated separately.
 
 ## Project Pipeline
 
-Underwater Images → Data Inspection → Data Preparation → Image Enhancement → YOLO Object Detection → Evaluation
+Underwater Images → Data Inspection → Data Preparation → Preprocessing → Image Enhancement → YOLO Object Detection → Evaluation
 
 ## Candidate Methods
 
@@ -41,13 +41,32 @@ Underwater Images → Data Inspection → Data Preparation → Image Enhancement
 - Day 8 — Dataset & Annotation Quality Report
 - Day 9 — Data Preparation Progress Pack
 - Day 10 — Visual Exploratory Data Analysis (EDA)
+- Day 11 — Dataset V1 Preparation
+- Day 12 — Dataset V1 Review & Finalization
+- Day 13 — Image Enhancement & Detection Preparation
+- Day 14 — Peer Visual Review & Experiment Hypotheses
 
 ## Current Status
 
 - Dataset inspection completed for all three datasets
 - Dataset and annotation quality audits completed
 - Visual EDA completed
-- Data preparation and preprocessing implementation started
-- Dataset V1 preparation is in progress
+- Dataset V1 prepared with 640 × 640 image size, RGB format and 0–1 normalization
+- Training augmentation strategy defined
+- Source-level leakage risks identified and documented
+- White Balance + CLAHE enhancement baseline implemented
+- 13,808 training images enhanced across all three datasets
+- Original and enhanced datasets maintained separately
+- YOLO configuration prepared for enhanced training data
+- Original vs Enhanced YOLO experiment defined
+- Experiment hypotheses and evaluation metrics finalized
+- No video data is currently available, so tracking is not included in the current implementation
+
+## Next Step
+
+- YOLO model training
+- Compare Original vs Enhanced images
+- Evaluate Precision, Recall, mAP@0.5, mAP@0.5:0.95 and inference time
+- Analyse the effect of image enhancement on detection performance
 
 **Author:** C. Nitesh Kumar
