@@ -1,0 +1,4 @@
+Dataset,Inference_Time_ms_per_image,FPS,Evaluation_Set,Images_Measured
+DIAT,22.14,45.16,Validation,100
+Aquatic Plant,9.8,102.02,Test,89
+Well,9.98,100.21,Test,100

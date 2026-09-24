@@ -1,0 +1,4 @@
+Dataset,Configuration,Enhancement,Detector,Evaluation_Set,Precision,Recall,mAP50,mAP50_95
+DIAT,Original YOLOv8n,None,YOLOv8n,Validation,90.02,92.09,92.73,65.92
+Aquatic Plant,WB+CLAHE + YOLOv8n,WB+CLAHE,YOLOv8n,Test,97.99,90.26,96.75,71.12
+Well,WB+CLAHE + YOLOv8n,WB+CLAHE,YOLOv8n,Test,43.0,37.46,39.34,16.15

@@ -1,0 +1,4 @@
+Dataset,Final_Configuration,Model_Size_MB
+DIAT,Original YOLOv8n,5.95
+Aquatic Plant,WB+CLAHE + YOLOv8n,5.96
+Well,WB+CLAHE + YOLOv8n,5.96
